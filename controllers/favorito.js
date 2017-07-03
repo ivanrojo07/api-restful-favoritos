@@ -41,7 +41,7 @@ function getFavoritos(req, res){
 
 		}
 		else{
-			res.status(200).send({favoritos});
+			res.status(200).send({favoritos: favoritos});
 		}
 
 	});
